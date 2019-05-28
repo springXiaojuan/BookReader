@@ -1,0 +1,108 @@
+.my-item{
+	border-bottom: 1rpx solid #ddd;
+	padding: 20rpx;
+	font-size: 32rpx;
+	background: #fff url('../../images/xiangyou1.png') no-repeat 98% 50% / auto 36rpx;
+}
+.my-item image{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+	vertical-align: -6rpx;
+}
+
+.header {
+	background: linear-gradient(to bottom,#4aaf31,#99cc33);
+	padding: 30rpx;
+  
+}
+
+.header .avatar {
+	display: block;
+	margin: 0 auto;
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+}
+.header .nickname {
+	color: #000;
+	font-size: 18px;
+	line-height: 2.4;
+	text-align: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: black;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+
+.my-item{
+	border-bottom: 1rpx solid #ddd;
+	padding: 20rpx;
+	font-size: 32rpx;
+	background: #fff url('../../images/xiangyou1.png') no-repeat 98% 50% / auto 36rpx;
+}
+.my-item image{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+	vertical-align: -6rpx;
+}
+
+.header {
+	background: linear-gradient(to bottom,#4aaf31,#99cc33);
+	padding: 30rpx;
+  
+}
+
+.header .avatar {
+	display: block;
+	margin: 0 auto;
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+}
+.header .nickname {
+	color: #000;
+	font-size: 18px;
+	line-height: 2.4;
+	text-align: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: black;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

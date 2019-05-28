@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/authorize/authorize",
+    "pages/my/my",
+    "pages/bookCity/bookCity",
+    "pages/bookshelf/bookshelf",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/reader/reader",
+    "pages/rank/rank",
+    "pages/bookCats/bookCats",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4aaf31",
+    "navigationBarTitleText": "随手看",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#cbbbb",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/searchSelected.png",
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homeSelected.png",
+        "pagePath": "pages/bookCity/bookCity",
+        "text": "书城"
+      },
+      {
+        "iconPath": "images/bookshelf.png",
+        "selectedIconPath": "images/bookshelfSelected.png",
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架"
+      },
+      {
+        "iconPath": "images/name.png",
+        "selectedIconPath": "images/nameSelect.png",
+        "pagePath": "pages/my/my",
+        "text": "我"
+      }
+    ]
+  }
+}

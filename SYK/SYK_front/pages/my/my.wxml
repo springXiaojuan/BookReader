@@ -1,0 +1,28 @@
+<view class="container">
+<view class="header">
+		<image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+		<view class="nickname">{{userInfo.nickName}}</view>
+  
+	</view>
+  <view class="my-list">
+
+    <!--
+		<navigator class="my-item" url="../myconferencelist/myconferencelist">
+			<image src="../../images/icon_24.png" mode="aspectFit"></image>
+			<text>个人信息</text>
+		</navigator>
+		-->
+   
+    <navigator class="my-item" url="../bookshelf/bookshelf" open-type="switchTab"
+    hover-class="other-navigator-hover">
+      <image  mode="aspectFit"></image>
+      <text>我的书架</text>
+    </navigator>
+     <navigator class="my-item" url="../about/about">
+      <image  mode="aspectFit"></image>
+      <text>关于我们</text>
+    </navigator>
+   
+  </view>
+</view>
+

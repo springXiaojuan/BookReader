@@ -1,0 +1,152 @@
+/* pages/search/search.wxss */
+
+.searchContainer {
+  padding-top: 30rpx;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50rpx;
+  left: 195rpx;
+  z-index: 20;
+}
+
+.clearIcon {
+  position: absolute;
+  top: 45rpx;
+  right: 45rpx;
+  z-index: 20;
+}
+
+.searchContainer input {
+  background: #efefef;
+  text-align: center;
+  color: #333;
+  font-size: 15px;
+  height: 70rpx;
+  line-height: 70rpx;
+  outline: none;
+  border-radius: 25rpx;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.placerStyle {
+  color: #999;
+  font: 14px;
+}
+
+.hotWord, .historyWord {
+  width: 92%;
+  margin: 30rpx  30rpx 12rpx 30rpx;
+}
+
+.hot_topic, .history_topic {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+
+.hot_title, .hot_refresh, .history_title, .history_clear {
+  font-size: 15px;
+}
+
+.hot_title, .history_title {
+  width: 50%;
+  color: #333;
+}
+
+.hot_refresh, .history_clear {
+  width: 20%;
+  color: #4aaf31;
+  text-align: right;
+}
+
+.history_clear {
+  text-align: center;
+  text-indent: 10px;
+}
+
+
+.hotWordContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hotWord_item {
+  font-size: 13px;
+  padding: 10rpx 18rpx;
+  text-align: center;
+  margin: 0 18rpx 18rpx 0;
+  color: #fff;
+}
+
+.historyWord_item {
+  font-size: 13px;
+  color: #333;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-bottom: 1px #f7f7f7 solid;
+}
+
+.bookList {
+  background: #fff;
+  position: relative;
+  padding: 0 30rpx;
+  width: 92%;
+  top: 40rpx;
+}
+
+.book_item {
+  border-bottom: 1px #eee solid;
+  position: relative;
+  height: 335rpx;
+}
+
+.book_item image {
+  width: 190rpx;
+  height: 275rpx;
+  position: absolute;
+  left: 0;
+  top: 30rpx;
+}
+
+.book_info {
+  position: absolute;
+  right: 0;
+  top: 30rpx;
+  width: 475rpx;
+}
+
+.book_title {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.book_site,.book_desc {
+  color: #999;
+  font-size: 12px;
+  line-height: 40rpx;
+  display: block;
+   margin-bottom: 10rpx;
+}
+
+.book_desc {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.book_follower {
+  font-size: 12px;
+  line-height: 40rpx;
+  color: #ff6347;
+}

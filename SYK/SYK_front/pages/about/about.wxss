@@ -1,0 +1,8 @@
+/* pages/about/about.wxss */
+.texts {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+
+  
+}
